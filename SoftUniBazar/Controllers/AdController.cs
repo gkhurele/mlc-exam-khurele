@@ -19,7 +19,6 @@ namespace SoftUniBazar.Controllers
             _data = data;
         }
 
-
         public async Task<IActionResult> Add()
         {
             AdFormModel adModel = new AdFormModel()
