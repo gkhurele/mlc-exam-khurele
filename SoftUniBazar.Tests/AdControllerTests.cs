@@ -143,6 +143,7 @@ namespace SoftUniBazar.Tests
             Assert.IsNotNull(redirectToActionResult);
             Assert.AreEqual("Cart", redirectToActionResult.ActionName);
             Assert.AreEqual("Ad", redirectToActionResult.ControllerName);
+            Assert.AreEqual("kk", "hh");
         }
     }
 }

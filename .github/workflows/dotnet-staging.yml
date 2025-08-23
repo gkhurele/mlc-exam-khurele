@@ -25,4 +25,4 @@ jobs:
         run: dotnet build SoftUniBazar.sln --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test SoftUniBazar.integrationTests/SoftUniBazar.IntegrationTests.csproj
+        run: dotnet test SoftUniBazar.IntegrationTests/SoftUniBazar.IntegrationTests.csproj
