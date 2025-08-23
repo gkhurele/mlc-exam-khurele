@@ -53,7 +53,7 @@ namespace SoftUniBazar.Tests
         [TearDown]
         public void TearDown()
         {
-            // Clean up in-memory database after each test
+            // Clean up in-memory database after each test dev to stage
             _dbContext.Database.EnsureDeleted();
             _dbContext.Dispose();
         }
