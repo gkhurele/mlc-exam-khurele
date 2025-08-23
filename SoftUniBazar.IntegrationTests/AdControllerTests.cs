@@ -22,7 +22,7 @@ namespace SoftUniBazar.Tests
         [SetUp]
         public void Setup()
         {
-            // Set up in-memory database for testing
+            // Set up in-memory database for testing dev to state
             var options = new DbContextOptionsBuilder<BazarDbContext>()
                 .UseInMemoryDatabase(databaseName: "BazarDbTest")
                 .Options;
@@ -53,7 +53,7 @@ namespace SoftUniBazar.Tests
         [TearDown]
         public void TearDown()
         {
-            // Clean up in-memory database after each test
+            // Clean up in-memory database after each test dev to stage
             _dbContext.Database.EnsureDeleted();
             _dbContext.Dispose();
         }
@@ -65,7 +65,7 @@ namespace SoftUniBazar.Tests
             var adFormModel = new AdFormModel()
             {
                 Name = "Integration Test Ad",
-                Description = "This is a test ad",
+                Description = "This is a test ad desc",
                 CategoryId = 1,
                 Price = 150,
                 ImageUrl = "https://example.com/test.jpg"
