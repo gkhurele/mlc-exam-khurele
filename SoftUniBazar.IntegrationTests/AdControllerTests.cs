@@ -65,7 +65,7 @@ namespace SoftUniBazar.Tests
             var adFormModel = new AdFormModel()
             {
                 Name = "Integration Test Ad",
-                Description = "This is a test ad",
+                Description = "This is a test ad.",
                 CategoryId = 1,
                 Price = 150,
                 ImageUrl = "https://example.com/test.jpg"
