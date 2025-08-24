@@ -27,7 +27,6 @@ namespace SoftUniBazar.Tests
                 .UseInMemoryDatabase(databaseName: "BazarDbTest")
                 .Options;
             _dbContext = new BazarDbContext(options);
-
             // Seed the in-memory database with categories
             _dbContext.Categories.AddRange(new List<Category>
             {
