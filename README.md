@@ -31,3 +31,4 @@
 - Local PC дээрээ `localhost:8080` дээр ажиллаж байгаа Jenkins-ээ унтраасан үед [https://673c6e75fb54.ngrok-free.app/](https://673c6e75fb54.ngrok-free.app/) хаягаар хандах боломжгүй.  
   Тиймээс амжилттай ажилласан Jenkins pipeline-ийн screenshot-ыг README-д оруулав.
   ![Pipeline ажилласан байдал](pipeline-ss.png)
+- Feature-CI-Pipeline файлыг Jenkins дээр гараар pipeline ажиллуулж туршихдаа хэрэглэсэн.
