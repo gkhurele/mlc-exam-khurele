@@ -22,12 +22,11 @@ namespace SoftUniBazar.Tests
         [SetUp]
         public void Setup()
         {
-            // Set up in-memory database for/ test pipe on jenkins
+            // Set up in-memory database for/ test pipe on jenkins try2
             var options = new DbContextOptionsBuilder<BazarDbContext>()
                 .UseInMemoryDatabase(databaseName: "BazarDbTest")
                 .Options;
             _dbContext = new BazarDbContext(options);
-
             // Seed the in-memory database with categories
             _dbContext.Categories.AddRange(new List<Category>
             {
