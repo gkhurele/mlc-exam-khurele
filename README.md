@@ -30,4 +30,4 @@
 - Local Jenkins туршилтад `ngrok` ашиглан `localhost`-ийг олон нийтэд нээж, webhook-ийг ажиллуулсан.
 - Local PC дээрээ `localhost:8080` дээр ажиллаж байгаа Jenkins-ээ унтраасан үед [https://673c6e75fb54.ngrok-free.app/](https://673c6e75fb54.ngrok-free.app/) хаягаар хандах боломжгүй.  
   Тиймээс амжилттай ажилласан Jenkins pipeline-ийн screenshot-ыг README-д оруулав.
-  ![Pipeline ажилласан байдал](push хийсний дараах jenkins pipeline ажилласан байдал.png)
+  ![Pipeline ажилласан байдал](pipeline-ss.png)
