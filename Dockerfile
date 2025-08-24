@@ -2,7 +2,6 @@ FROM jenkins/jenkins:lts
 
 USER root
 
-# Install dependencies
 RUN apt-get update && apt-get install -y wget unzip libicu-dev \
     && rm -rf /var/lib/apt/lists/*
 

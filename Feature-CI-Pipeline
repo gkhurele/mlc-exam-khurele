@@ -1,3 +1,5 @@
+//Jenkins дээр гараар pipeline ажиллуулж туршихдаа хэрэглэсэн.
+
 pipeline {
     agent any
     
