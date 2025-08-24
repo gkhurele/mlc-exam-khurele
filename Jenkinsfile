@@ -25,10 +25,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            echo '📂 Archiving test results...'
-            junit 'TestResults/*.trx'
-        }
-    }
 }
